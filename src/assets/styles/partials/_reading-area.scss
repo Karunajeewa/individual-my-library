@@ -54,5 +54,26 @@ $add-icon-color: #014199;
         color: $add-icon-color;
       }
     }
+    .create-form-penal{
+      h3{
+        border-bottom: 2.5px solid $sub-title-underline-color;
+        display: inline-block;
+        font-size: 1.1em;
+        font-weight: 450;
+      }
+      .feather-x-circle{
+        font-size: 1.1em;
+        cursor: pointer;
+        vertical-align: center;
+      }
+
+      .form-label{
+        font-size: small;
+      }
+      .MBBtn{
+        position: absolute;
+        float: right;
+      }
+    }
   }
 }
