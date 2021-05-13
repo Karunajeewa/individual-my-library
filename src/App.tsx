@@ -8,8 +8,8 @@ import {Container} from "react-bootstrap";
 const App:React.FC = ()=>{
   return(
       <Container fluid={true}>
-        <Welcome/>
-        <ReadingArea/>
+          <Welcome/>
+          <ReadingArea/>
       </Container>
   )
 };
