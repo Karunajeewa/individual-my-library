@@ -1,13 +1,13 @@
 import React from "react";
 import {Row, Col, Container} from "react-bootstrap";
 
-const Author:React.FC = () =>{
+const Book:React.FC = () =>{
     return(
         <Container fluid={true}>
             <li >
                 <Row className='pl-0'>
                     <Col xs={9} className='pl-0'>
-                        <label>1. Author</label>
+                        <label>1. Book</label>
                     </Col>
                     <Col xs={3} className='pl-5'>
                         <i className='feather-edit text-warning pr-2'/>
@@ -17,7 +17,6 @@ const Author:React.FC = () =>{
             </li>
         </Container>
     )
-}
+};
 
-
-export default Author;
+export default Book;

@@ -5,29 +5,31 @@ $add-icon-color: #014199;
 
 .reading-area{
   min-height: 100vh;
+  padding-left: 1em;
 
 
   .authors{
     .sub-title{
       color: $sub-title-color;
       border-bottom: 2px solid $sub-title-underline-color;
-      padding-left: 0;
       padding-right: 0;
+      width: 95%;
+      padding-left: 0;
     }
 
     h1{
       font-weight: 350;
       padding-left: 0;
-    }
-
-    .empty-label{
-      font-size: 1.1em;
+      width: 95%;
     }
 
     ul{
       li{
         font-size: 1.1em;
-        font-weight: 300;
+        font-weight: 400;
+        width: 95%;
+        padding-left: 0;
+        padding-top: 1em;
 
         i{
           display: none;
@@ -36,8 +38,10 @@ $add-icon-color: #014199;
         }
         &:hover{
           background-color: $link-hover-bg;
+
           i{
             display: inline-block;
+
           }
         }
 
